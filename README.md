@@ -37,9 +37,9 @@ Create Task: Users can add new tasks by providing a task name, description, and 
 
 Update Task: Users can edit existing tasks to modify task details or due dates.
 
-Delete Task: Users can delete tasks they no longer need.
+Delete Task: Users can delete tasks if they no longer need.
 
-Mark as Completed: Users can mark tasks as completed to indicate that the task is done.
+Mark as Completed: Users can mark tasks as completed if task is done.
 
 ## Code scaffolding
 
