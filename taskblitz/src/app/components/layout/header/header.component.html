@@ -1,0 +1,17 @@
+<!-- navbar -->
+<div class="toolbar" role="banner">
+  <div class="right-layout">
+    <a>
+      <img src="../../assets/images/logo.png" alt="User Avatar" class="logo"
+    /></a>
+    <h1 class="logo-text">TaskBlitz</h1>
+  </div>
+  <div class="left-layout" *ngIf="isLoggedIn">
+    <a routerLink="/profile"
+      ><img
+        src="../../assets/images/user-avatar.png"
+        alt="User Avatar"
+        class="avatar"
+    /></a>
+  </div>
+</div>

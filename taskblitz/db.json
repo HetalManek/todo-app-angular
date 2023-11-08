@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "make this task complete",
+      "description": "this is to do app.",
+      "dueDate": "2023-11-05",
+      "id": 53
+    },
+    {
+      "title": "make an order of vegetables",
+      "description": "all vegetables",
+      "dueDate": "2023-11-30",
+      "id": 54
+    },
+    {
+      "title": "Reading novel",
+      "description": "Swamivivekannand book",
+      "dueDate": "2023-11-12",
+      "id": 55
+    },
+    {
+      "title": "prepare food",
+      "description": "roti , sabji , dal , bhat",
+      "dueDate": "2023-11-05",
+      "id": 56
+    },
+    {
+      "title": "make ppt of  webflow",
+      "description": "webflow presentation",
+      "dueDate": "2023-11-05",
+      "id": 57
+    }
+  ],
+  "users": {
+    "name": "Hetal",
+    "email": "Hetal@gmail.com",
+    "password": "hetal123",
+    "confirmPassword": "hetal123"
+  }
+}

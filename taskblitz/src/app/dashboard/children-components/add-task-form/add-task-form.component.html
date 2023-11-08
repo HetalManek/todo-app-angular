@@ -1,0 +1,59 @@
+<div class="pop-up-container">
+  <form [formGroup]="todoForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label class="form-label" for="form2Example22">Task:</label>
+      <input
+        class="modal-input task-name"
+        formControlName="title"
+        placeholder="Task name"
+        required
+      />
+      <div *ngIf="submitted && f['title'].errors" class="invalid-feedback">
+        <span *ngIf="f['title'].errors['required']">title is required</span>
+      </div>
+    </div>
+    <div>
+      <label class="form-label" for="form2Example22">Description:</label>
+      <textarea
+        class="modal-input task-desc"
+        formControlName="description"
+        placeholder="Description"
+        required
+        rows="2"
+      ></textarea>
+      <div
+        *ngIf="submitted && f['description'].errors"
+        class="invalid-feedback"
+      >
+        <span *ngIf="f['description'].errors['required']"
+          >description is required</span
+        >
+      </div>
+    </div>
+    <div>
+      <label class="form-label" for="form2Example22">Set date:</label>
+      <input
+        type="date"
+        class="date-picker-layout"
+        formControlName="dueDate"
+        onkeydown="return false"
+        [min]="minDate"
+        required
+      />
+      <div *ngIf="submitted && f['dueDate'].errors" class="invalid-feedback">
+        <span *ngIf="f['dueDate'].errors['required']">date is required</span>
+      </div>
+    </div>
+    <div class="btn-container">
+      <button
+        mat-raised-button
+        class="cancel-btn"
+        type="button"
+        (click)="closeTodoForm()"
+      >
+        Cancel
+      </button>
+      <button mat-raised-button class="add-task-btn" type="submit">Save</button>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,124 @@
+*{
+  font-size: 15px;
+}
+
+.sidebar a i {
+  margin-right: 10px;
+}
+
+
+.toolbar {
+  background-color: rgb(89 85 108);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #655d9d;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  z-index: 99;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.sidebar a:hover {
+  background-color: rgb(144, 137, 184);
+}
+
+.content {
+  margin-left: 250px;
+  padding-left: 20px;
+}
+
+.add-task-btn {
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  font-weight: 500;
+  padding: 7px 77px;
+  text-align: center;
+  cursor: pointer;
+  display: block;
+  background-color: white;
+  color: black !important;
+  border: none;
+  margin: 15px;
+  margin-top: 75px;
+}
+
+.add-task-btn:hover {
+  color: white !important;
+  background-color: #655d9d !important; /* Change the background color on hover */
+}
+
+.log-out-btn {
+  margin-bottom: 20px;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+}
+
+.log-out-btn button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 7px 24px;
+  cursor: pointer;
+  display: block;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  border: none;
+  margin-bottom: 15px;
+}
+.left-layout {
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  right: 35px;
+  bottom: 0px;
+  z-index: 9999;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .sidebar h2 {
+    display: none;
+  }
+
+  .sidebar a {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}

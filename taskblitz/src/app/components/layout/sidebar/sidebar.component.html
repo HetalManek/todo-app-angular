@@ -1,0 +1,19 @@
+<!-- dashboard -->
+<div class="sidebar">
+  <div (click)="openAddTaskDialog()">
+    <a class="add-task-btn"> <i class="fas fa-plus"></i> Add Task </a>
+  </div>
+
+  <a routerLink="/dashboard/all-task">
+    <i class="fas fa-tasks"></i> All Tasks
+  </a>
+  <a routerLink="/dashboard/today-task">
+    <i class="fas fa-calendar-day"></i> Today
+  </a>
+  <a routerLink="/dashboard/upcoming-task">
+    <i class="fas fa-calendar-alt"></i> Upcoming
+  </a>
+  <div class="log-out-btn" (click)="logOut()">
+    <a> <i class="fas fa-sign-out-alt"></i> Log out </a>
+  </div>
+</div>

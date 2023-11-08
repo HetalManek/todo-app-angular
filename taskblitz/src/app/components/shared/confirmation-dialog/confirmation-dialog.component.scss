@@ -1,0 +1,25 @@
+.confirmation-dialog-container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff; /* Set background color */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.confirmation-dialog-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.confirmation-dialog-content {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.confirmation-dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.confirmation-dialog-button {
+  margin-left: 10px;
+}
