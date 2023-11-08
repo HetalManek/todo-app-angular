@@ -1,4 +1,4 @@
-# TodoApp
+# To-doApp
 
 TaskBlitz Web App:
 Welcome to TaskBlitz, your personal task manager web application powered by JSON Server! TIt allows users to create, update, delete, and mark tasks as completed. This application helps users keep track of their tasks and stay organized.
